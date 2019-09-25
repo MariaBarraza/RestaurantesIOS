@@ -14,6 +14,8 @@
 		3DF20EA6233C0EF700A21EFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DF20EA4233C0EF700A21EFF /* LaunchScreen.storyboard */; };
 		3DF20EB1233C0EF700A21EFF /* RestauranteIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF20EB0233C0EF700A21EFF /* RestauranteIOSTests.swift */; };
 		3DF20EBC233C0EF700A21EFF /* RestauranteIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF20EBB233C0EF700A21EFF /* RestauranteIOSUITests.swift */; };
+		3DF20ECA233C106A00A21EFF /* RestauranteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF20EC9233C106A00A21EFF /* RestauranteController.swift */; };
+		3DF20ECC233C107F00A21EFF /* Restaurante.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF20ECB233C107F00A21EFF /* Restaurante.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		3DF20EB7233C0EF700A21EFF /* RestauranteIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestauranteIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DF20EBB233C0EF700A21EFF /* RestauranteIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestauranteIOSUITests.swift; sourceTree = "<group>"; };
 		3DF20EBD233C0EF700A21EFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DF20EC9233C106A00A21EFF /* RestauranteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestauranteController.swift; sourceTree = "<group>"; };
+		3DF20ECB233C107F00A21EFF /* Restaurante.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurante.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				3DF20EA2233C0EF700A21EFF /* Assets.xcassets */,
 				3DF20EA4233C0EF700A21EFF /* LaunchScreen.storyboard */,
 				3DF20EA7233C0EF700A21EFF /* Info.plist */,
+				3DF20EC9233C106A00A21EFF /* RestauranteController.swift */,
+				3DF20ECB233C107F00A21EFF /* Restaurante.swift */,
 			);
 			path = RestauranteIOS;
 			sourceTree = "<group>";
@@ -256,7 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DF20ECA233C106A00A21EFF /* RestauranteController.swift in Sources */,
 				3DF20E9E233C0EF500A21EFF /* ViewController.swift in Sources */,
+				3DF20ECC233C107F00A21EFF /* Restaurante.swift in Sources */,
 				3DF20E9C233C0EF500A21EFF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
