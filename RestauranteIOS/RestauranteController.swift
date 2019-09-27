@@ -11,7 +11,8 @@ import UIKit
 
 class RestauranteController: UIViewController,UITableViewDelegate,UITableViewDataSource {
     
-    @IBOutlet weak var tvRestaurante: UITableViewCell!
+    @IBOutlet weak var tvRestaurante: UITableView!
+    
     
     var restaurantes: [Restaurante] = []
     override func viewDidLoad() {
@@ -30,9 +31,14 @@ class RestauranteController: UIViewController,UITableViewDelegate,UITableViewDat
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let celda = tableView.dequeueReusableCell(withIdentifier: "celdaRestaurante")
+        celda?.textLabel?.text = restaurantes[indexPath.row].nombre
+        return celda!
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        <#code#>
+        if segue.identifier == "goToDetallesRestaurante" {
+            let destino = segue.destination as? DetallesRestauranteController
+            destino?.restaurante = restaurantes[tvRestaurante.indexPathForSelectedRow!.row]
     }
+}
 }

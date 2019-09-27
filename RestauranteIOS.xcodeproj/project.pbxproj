@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3DB6BDC1233EA4FC00410EA5 /* DetallesRestauranteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB6BDC0233EA4FC00410EA5 /* DetallesRestauranteController.swift */; };
 		3DF20E9C233C0EF500A21EFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF20E9B233C0EF500A21EFF /* AppDelegate.swift */; };
 		3DF20E9E233C0EF500A21EFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF20E9D233C0EF500A21EFF /* ViewController.swift */; };
 		3DF20EA1233C0EF600A21EFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DF20E9F233C0EF600A21EFF /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3DB6BDC0233EA4FC00410EA5 /* DetallesRestauranteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetallesRestauranteController.swift; sourceTree = "<group>"; };
 		3DF20E98233C0EF500A21EFF /* RestauranteIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestauranteIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DF20E9B233C0EF500A21EFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DF20E9D233C0EF500A21EFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				3DF20EA7233C0EF700A21EFF /* Info.plist */,
 				3DF20EC9233C106A00A21EFF /* RestauranteController.swift */,
 				3DF20ECB233C107F00A21EFF /* Restaurante.swift */,
+				3DB6BDC0233EA4FC00410EA5 /* DetallesRestauranteController.swift */,
 			);
 			path = RestauranteIOS;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 				3DF20ECA233C106A00A21EFF /* RestauranteController.swift in Sources */,
 				3DF20E9E233C0EF500A21EFF /* ViewController.swift in Sources */,
 				3DF20ECC233C107F00A21EFF /* Restaurante.swift in Sources */,
+				3DB6BDC1233EA4FC00410EA5 /* DetallesRestauranteController.swift in Sources */,
 				3DF20E9C233C0EF500A21EFF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
